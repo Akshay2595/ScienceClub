@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E5E9"
+    tools:context=".activity.AboutUsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="“Relisant Science Club is a Toastmaster of the young science innovator. ScienceClub is a support platform to develop science innovator and science entrepreneur. Nurturing scientific approach, Ideas with support of intellectual community, wide range of Scientific Instruments, Kits and Support for Copyright, Patent and commercializing viable ideas and innovations.”" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Science club is conceptualize not on the base of Netflix which delivers/rents content between company to end user and aim of organization is only to provide toys kits to kids , students without having any mission or aim for the end user." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Science club is conceptualize based on the Toastmasters where providing instruments is not the main aim, aim is to motivate students and science enthusiastic to provide freedom to play with science, experiment with the thoughts , instruments , concept." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Create an echo system which is more reliable, motivating and supporting students to seriously thing innovation is the way of future business. Companies such as Tesla who are building their empire on the scientific innovations can change the future." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Science club is aimed to establish nationwide and in future worldwide clubs to promote science, collaboration, sharing of thoughts and generating more patents and copyrights for the scientific innovations." />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

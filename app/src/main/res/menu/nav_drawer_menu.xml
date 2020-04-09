@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/group_science_club"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/science_club"
+            android:icon="@drawable/ic_scienceclub"
+            android:iconTint="@android:color/black"
+            android:title="Science Club" />
+    </group>
+
+    <group
+        android:id="@+id/group_video_logs"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/video_logs"
+            android:icon="@drawable/ic_youtube_black_white"
+            android:title="Video Logs" />
+    </group>
+
+    <group
+        android:id="@+id/group_user_members"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/members"
+            android:icon="@drawable/ic_members"
+            android:title="Members" />
+    </group>
+
+    <group
+        android:id="@+id/group_how_work"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/how_work"
+            android:icon="@drawable/ic_howitwork"
+            android:title="How it's work" />
+    </group>
+
+    <group
+        android:id="@+id/group_about_club"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_club"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Science Club" />
+    </group>
+</menu>

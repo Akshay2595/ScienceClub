@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_club"
+        android:icon="@drawable/ic_scienceclub"
+        android:title="Clubs" />
+
+    <item
+        android:id="@+id/bottom_video_logs"
+        android:icon="@drawable/ic_youtube_black_white"
+        android:title="Video Logs" />
+
+    <item
+        android:id="@+id/bottom_member"
+        android:icon="@drawable/ic_members"
+        android:title="Member" />
+
+</menu>
