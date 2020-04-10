@@ -23,46 +23,181 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/appbar">
+        android:layout_below="@id/appbar"
+        android:background="@drawable/bgcloud"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_10sdp"
+android:layout_margin="@dimen/_10sdp"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp">
+
+<ImageView
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="@dimen/_60sdp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginBottom="@dimen/_20sdp"
+android:src="@drawable/logo"></ImageView>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/txtTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Who We Are ?"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtStep1"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/average"
+                android:text="Relisant Science Club  is a support platform to develop science innovator and science entrepreneur. Nurturing scientific approach, Ideas with support of intellectual community, wide range of Scientific Instruments, Kits.. "
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtStep1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="We Are Not"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtAbout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtStep1"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/average"
+                android:text="Science club is not only community which delivers/rents content for science enthusiastic with aim of  only to provide science kits to kids and students without having any mission, aim or guidence for them ."
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/txtAbout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Science Club is ..."
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/txtWhatis1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="01 ~ Rendezvous "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="“Relisant Science Club is a Toastmaster of the young science innovator. ScienceClub is a support platform to develop science innovator and science entrepreneur. Nurturing scientific approach, Ideas with support of intellectual community, wide range of Scientific Instruments, Kits and Support for Copyright, Patent and commercializing viable ideas and innovations.”" />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="cursive"
+                android:text="Weekly or monthly rendezvous of young innovators and science enthusiastic"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtWhatis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="02 ~ Community  "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="Science club is conceptualize not on the base of Netflix which delivers/rents content between company to end user and aim of organization is only to provide toys kits to kids , students without having any mission or aim for the end user." />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="cursive"
+                android:text="A community to care and share scientific thoughts of each other in person and online with wider community"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtWhatis3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="03 ~ Instruments &amp; kits   "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="Science club is conceptualize based on the Toastmasters where providing instruments is not the main aim, aim is to motivate students and science enthusiastic to provide freedom to play with science, experiment with the thoughts , instruments , concept." />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="cursive"
+                android:text="Nurture your ideas with sustainable support of required Scientific Instruments, kits and consumable substance"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtWhatis4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="04 ~ Awards &amp; Scholerships  "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="Create an echo system which is more reliable, motivating and supporting students to seriously thing innovation is the way of future business. Companies such as Tesla who are building their empire on the scientific innovations can change the future." />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="cursive"
+                android:text="Annual Science Competition among national clubs. Winning science innovator to awarded with Scholarship and Prestigious awards"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="Science club is aimed to establish nationwide and in future worldwide clubs to promote science, collaboration, sharing of thoughts and generating more patents and copyrights for the scientific innovations." />
+
 
         </LinearLayout>
 
